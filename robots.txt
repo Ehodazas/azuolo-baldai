@@ -1,6 +1,7 @@
 # Paieškos sistemoms leidžiama indeksuoti visą svetainę, išskyrus serverio dalį.
-# PRIEŠ PASKELBIANT: pakeiskite adresą žemiau tikru svetainės adresu.
+# Persikėlus į savo domeną, pakeiskite adresą žemiau.
 User-agent: *
+Disallow: /azuolo-baldai/api/
 Disallow: /api/
 
-Sitemap: https://www.azuolobaldai.lt/sitemap.xml
+Sitemap: https://ehodazas.github.io/azuolo-baldai/sitemap.xml

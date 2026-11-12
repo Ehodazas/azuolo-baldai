@@ -79,7 +79,7 @@ riboti bandymų skaičių ir tikrinti užklausos kilmę (`Origin`).
 
 ## Prieš paskelbiant svetainę
 
-- `sitemap.xml` ir `robots.txt` faile pakeiskite `https://www.azuolobaldai.lt` tikru svetainės adresu.
+- `sitemap.xml` ir `robots.txt` dabar nurodo GitHub Pages adresą `https://ehodazas.github.io/azuolo-baldai/`. Persikėlus į savo domeną, pakeiskite jį abiejuose failuose.
 - Kai privatumo politika ir pirkėjo informacija nebebus juodraščiai, iš `privatumas.html` ir `informacija.html` pašalinkite `<meta name="robots" content="noindex">` ir įtraukite juos į `sitemap.xml`.
 - Pridėję naują projektą į `js/projects-data.js`, įtraukite jo adresą (`projektas.html?id=...`) į `sitemap.xml`.
 - `.htaccess` nustato puslapį „Nerasta“ (`404.html`), naršyklės talpyklą ir suspaudimą Apache serveryje. Netlify ir kitos paslaugos `404.html` dažniausiai naudoja automatiškai.

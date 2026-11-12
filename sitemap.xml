@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Svetainės žemėlapis paieškos sistemoms.
-     PRIEŠ PASKELBIANT: pakeiskite https://www.azuolobaldai.lt tikru svetainės adresu (taip pat robots.txt).
+     Svetainė paskelbta per GitHub Pages. Persikėlus į savo domeną, pakeiskite adresus čia ir robots.txt.
      Privatumo politika ir pirkėjo informacija čia neįtrauktos, kol jos yra juodraščiai (noindex). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.azuolobaldai.lt/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=virtuve-su-atviromis-lentynomis</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=sviesi-virtuve</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=valgomojo-stalas-su-reminemis-kojomis</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=miegamasis-su-naktine-spintele</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=svetaine-su-zalia-sofa</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=lofto-stiliaus-svetaine</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=miegamasis-su-minkstu-galvugaliu</loc><priority>0.7</priority></url>
-  <url><loc>https://www.azuolobaldai.lt/projektas.html?id=svetaine-su-geltonu-foteliu</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=virtuve-su-atviromis-lentynomis</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=sviesi-virtuve</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=valgomojo-stalas-su-reminemis-kojomis</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=miegamasis-su-naktine-spintele</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=svetaine-su-zalia-sofa</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=lofto-stiliaus-svetaine</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=miegamasis-su-minkstu-galvugaliu</loc><priority>0.7</priority></url>
+  <url><loc>https://ehodazas.github.io/azuolo-baldai/projektas.html?id=svetaine-su-geltonu-foteliu</loc><priority>0.7</priority></url>
 </urlset>
