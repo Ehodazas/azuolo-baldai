@@ -1,0 +1,24 @@
+# Apache serverio nustatymai (dauguma Lietuvos talpinimo paslaugų).
+# Jei talpinimas ne Apache (pvz., Netlify), šis failas ignoruojamas: Netlify 404.html naudoja automatiškai.
+
+# Puslapis „Nerasta“
+ErrorDocument 404 /404.html
+
+# Naršyklės talpykla: nuotraukos ilgam, stiliai ir skriptai savaitei, HTML visada tikrinamas iš naujo
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Teksto failų suspaudimas
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json image/svg+xml text/xml application/xml
+</IfModule>
+
+# Vidiniai failai neviešinami
+<FilesMatch "^(INTEGRACIJA\.md|.*\.ps1|.*\.zip)$">
+  Require all denied
+</FilesMatch>

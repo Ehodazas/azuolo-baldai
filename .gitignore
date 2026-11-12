@@ -1,0 +1,16 @@
+# Archyvai (svetainės ZIP kopijos)
+*.zip
+
+# Slapti nustatymai — niekada nekelti į saugyklą
+.env
+.env.*
+
+# Claude Code vietiniai nustatymai (paliekame tik launch.json ir serve.ps1 peržiūrai)
+.claude/*
+!.claude/launch.json
+!.claude/serve.ps1
+
+# Operacinės sistemos failai
+Thumbs.db
+desktop.ini
+.DS_Store
